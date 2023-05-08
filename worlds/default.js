@@ -78,7 +78,7 @@ export function init(Constants) {
                 openPortalRotation: [0, -Math.PI / 2, 0],
                 openPortalWidth: 1.8,
                 openPortalHeight: 2.4,
-                openPortalURL: "/?world=factory", // expanded to croquet.io URL
+                openPortalPath: "?world=factory",
             }
         },
         {
@@ -129,6 +129,8 @@ export function init(Constants) {
                 type: "2d",
                 textureType: "image",
                 textureLocation: "./assets/images/STATE FARM LOGO.png",
+                cardURL: "https://www.statefarm.com/",
+                behaviorModules: ["URLLink"],
                 fullBright: true,
                 frameColor: 0xcccccc,
                 color: 0xffffff,
@@ -147,6 +149,8 @@ export function init(Constants) {
                 type: "2d",
                 textureType: "image",
                 textureLocation: "./assets/images/STATE FARM LOGO.png",
+                cardURL: "https://www.statefarm.com/",
+                behaviorModules: ["URLLink"],
                 fullBright: true,
                 frameColor: 0xcccccc,
                 color: 0xffffff,

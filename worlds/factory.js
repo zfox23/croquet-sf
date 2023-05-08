@@ -9,7 +9,7 @@ export function init(Constants) {
 
     Constants.UserBehaviorDirectory = "behaviors/factory";
     Constants.UserBehaviorModules = [
-        "csmLights.js", "crane.js", "forklift.js", "circle.js", "cascade.js", "earth.js", "box.js", "drone.js", "spin.js", "flightTracker.js", "rearrange.js"
+        "csmLights.js", "crane.js", "forklift.js", "circle.js", "cascade.js", "earth.js", "box.js", "drone.js", "spin.js", "flightTracker.js", "rearrange.js", "openPortal.js"
     ];
 
     // Constants.ExcludedSystemBehaviorModules = ["gizmo.js"];
@@ -34,6 +34,21 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
+        // Commented out because two-way portals seem to cause problems.
+        // {
+        //     card: {
+        //         name: "portal button",
+        //         translation: [-6.580514227883399, 5.716215749781541, 42.5506424159337],
+        //         behaviorModules: ["OpenPortalButton"],
+        //         type: "object",
+        //         // entrance card should match this position
+        //         openPortalTranslation: [-6.580514227883399, 4.016215749781541, 42.5506424159337],
+        //         openPortalRotation: [0, 0, 0],
+        //         openPortalWidth: 1.8,
+        //         openPortalHeight: 2.4,
+        //         openPortalPath: "",
+        //     }
+        // },
         {
             card: {
                 translation: [50.632411510320324, 9.053924450189605, 16.130420037001542],
