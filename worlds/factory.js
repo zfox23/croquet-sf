@@ -9,7 +9,7 @@ export function init(Constants) {
 
     Constants.UserBehaviorDirectory = "behaviors/factory";
     Constants.UserBehaviorModules = [
-        "csmLights.js", "crane.js", "forklift.js", "circle.js", "cascade.js", "earth.js", "box.js", "drone.js", "spin.js", "flightTracker.js", "rearrange.js", "openPortal.js"
+        "lights.js", "crane.js", "forklift.js", "circle.js", "cascade.js", "earth.js", "box.js", "drone.js", "spin.js", "flightTracker.js", "rearrange.js", "openPortal.js"
     ];
 
     // Constants.ExcludedSystemBehaviorModules = ["gizmo.js"];
