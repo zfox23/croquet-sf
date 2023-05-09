@@ -34,7 +34,7 @@ export function init(Constants) {
                 placeholderOffset: [0, 0, 0],
             }
         },
-        // Commented out because two-way portals seem to cause problems.
+        // Commented out because two-way portals cause some performance issues.
         // {
         //     card: {
         //         name: "portal button",
